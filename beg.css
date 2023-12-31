@@ -1,0 +1,173 @@
+p{
+    font-family: Arial;
+}
+.amazon-link{
+    color: rgb(0, 0, 243);
+    display: block;
+} 
+.amazon-link:hover{
+color: orange;
+}
+
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.green{
+    color: green;
+    font-weight: bolder; 
+}
+
+.delivery {
+    font-size: large;
+}
+.cart{
+    background-color: rgb(199, 181, 25);
+    /* using padding instead of height and width */
+   padding-left: 40px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-right: 40px;
+   border: none;
+   border-radius: 35px;
+   margin-right: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   cursor: pointer;
+   transition: background-color 0.15s;
+}
+.cart:hover{
+    background-color: rgb(218, 218, 0);
+    box-shadow: 0px 0px 10px;
+}
+
+.buy-Now{
+    background-color: orange;
+    border: none;
+    border-radius: 35px;
+    height: 47px;
+    width: 145px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor:pointer;
+transition: box-shadow 0.15s;
+}
+.buy-Now:hover{
+    background-color: rgb(248, 206, 21);
+    box-shadow: 0px 0px 10px ;
+    
+}
+
+.shoe-back{
+   margin-bottom: 5px;
+}
+.cat1{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+   border-color: rgb(11, 12, 12);
+   border-radius: 4px;
+
+}
+.oliver{
+    color: #000000;
+    font-size: 30px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  padding-left: 7px;
+}
+
+.oliver:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mutual{
+    display: inline-block;
+    margin-top: 1px;
+    color: grey;
+    font-size: 16px;
+    vertical-align: top;
+  
+}
+
+
+
+.add{
+padding-right: 50px;
+ padding-left: 50px;
+margin-left: 50px;
+ display: block;
+ margin-top: 3px;
+ margin-bottom: 5px;
+ background-color:rgb(231, 243, 258);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ font-weight: bold;
+  font-size:15px;
+ color: rgb(23, 113, 230);
+ border-radius: 8px;
+   background-color: rgb(219, 231, 242);
+ 
+}
+.remove{
+    padding-right: 55px;
+    padding-left: 65px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    background-color:rgb(192,192,192);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size:15px; 
+}
+.add:hover{
+    background-color:rgb(219, 231, 242);
+    opacity: 0.7;
+    cursor: pointer;
+}
+.remove:hover{
+    background-color: rgb(216, 218, 223);
+    cursor: pointer;
+}
+
+
+.cat2{
+    width: 19px;
+    height: 19px;
+    border-radius: 45px;
+    margin-left: 55px;
+    display: inline;
+    position: relative;
+
+   
+
+
+}
+.cat3{
+    width: 19px;
+    border-radius: 45px;
+    display: inline;
+}
+.div1{
+    border-color: rgb(163, 101, 7);
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 10px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+   
+
+}
+.div2{
+    border-color: rgb(110, 183, 212);
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+   border-radius: 7px;
+   display: inline-block;
+}
+
+

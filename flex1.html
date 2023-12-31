@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+
+    <style>
+      .border {
+        display: flex;
+        border: 1px solid red;
+        color: blue;
+        margin: 10px 0;
+      }
+
+      .content {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .content .menu,
+      .content .right {
+        width: 20%;
+        height: 500px;
+      }
+
+      .content .main {
+        width: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border">
+      <!-- header area -->
+      <p>Header</p>
+      
+    </div>
+
+    <div class="content">
+      <!-- main content area -->
+      <!-- menu section -->
+      <div class="border menu">
+        <p>Menu</p>
+      </div>
+
+      <!-- main section -->
+      <div class="border main">
+        <p>Main</p>
+      </div>
+
+      <!-- right section -->
+      <div class="border right">
+        <p>Right</p>
+      </div>
+    </div>
+
+    <div class="border">
+      <!-- footer area -->
+      <p>Footer</p>
+    </div>
+  </body>
+</html>

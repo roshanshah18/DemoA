@@ -1,0 +1,30 @@
+body,html{
+    height : 100%
+}
+
+.flex
+{
+    display: flex;
+}
+.left{
+    width: 150px;
+    height: 150px;
+    
+}
+.left
+{
+    position: relative;
+right: -5%;
+}
+
+.right
+{
+ position: relative;
+ top: -88px;
+ right: -88%;
+}
+.img
+{
+   background-image: https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-970-80.jpg.webp;
+   height : 100%
+}

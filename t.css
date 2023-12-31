@@ -1,0 +1,107 @@
+.cat1{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+   border-radius: 4px;
+
+
+}
+.cat2{
+    width: 19px;
+    height: 19px;
+    border-radius: 45px;
+    margin-left: 70px;
+    position: absolute;
+    z-index: 1;
+}
+.cat3{
+    width: 19px;
+    margin-left: 60px;
+    border-radius: 45px;
+    display: inline;
+    position: absolute;
+    z-index: 2;
+ 
+}
+.div1{
+    display: inline-block;
+    border: 2px;
+    border-color: aqua;
+    border-style:solid;
+    margin-right: 10px;
+    padding-right: 50px;
+  
+
+}
+.div2{
+    display: inline-block;
+    border: 2px;
+    border-color: aqua;
+    border-style:solid;
+    padding-right: 28px;
+
+}
+
+.add{
+    padding-right: 50px;
+     padding-left: 50px;
+    margin-left: 50px;
+     display: block;
+     margin-top: 3px;
+     margin-bottom: 5px;
+     background-color:rgb(231, 243, 258);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-weight: bold;
+      font-size:15px;
+     color: rgb(23, 113, 230);
+     border-radius: 8px;
+       background-color: rgb(219, 231, 242);
+     
+    }
+    .remove{
+        padding-right: 55px;
+        padding-left: 65px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+        background-color:rgb(192,192,192);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size:15px; 
+    }
+    .add:hover{
+        background-color:rgb(219, 231, 242);
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    .remove:hover{
+        background-color: rgb(216, 218, 223);
+        cursor: pointer;
+    }
+    .oliver{
+        color: #000000;
+        font-size: 30px;
+      margin-top: 0px;
+      margin-left: 50px;
+      margin-bottom: 5px;
+      padding-left: 7px;
+    }
+    .mutual{
+        margin-top: 1px;
+        color: grey;
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 95px;
+    
+       
+    
+    }
+    .oliver:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
